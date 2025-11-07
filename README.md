@@ -3,7 +3,6 @@
 A modular Python workflow for document processing using LLMs.  
 This project can summarize documents, make decisions based on the summaries, and generate professional reports automatically.
 
----
 
 ## Features
 
@@ -14,7 +13,6 @@ This project can summarize documents, make decisions based on the summaries, and
 - Reads documents from a folder and saves results in organized batches
 - Compatible with Ollama LLMs (currently using Mistral)
 
----
 
 ## Installation
 
