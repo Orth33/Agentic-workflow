@@ -16,29 +16,6 @@ This project can summarize documents, make decisions based on the summaries, and
 
 ---
 
-## Folder Structure
-
-agentic_workflow/
-│
-├── agentic_workflow.py # Entry point
-├── config/
-│ └── settings.py # Project configuration
-├── llm/
-│ └── ollama_client.py # LLM initialization
-├── workflow/
-│ ├── summarize.py # Summarization logic
-│ ├── decision.py # Decision-making logic
-│ ├── report.py # Report generation logic
-│ └── runner.py # Workflow orchestration
-├── prompts/
-│ └── templates.py # Prompt templates
-├── utils/
-│ └── file_io.py # File reading/writing utilities
-└── results/ # Auto-created output folder
-
-
----
-
 ## Installation
 
 1. Clone the repository:
