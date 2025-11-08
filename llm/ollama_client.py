@@ -1,10 +1,9 @@
 from langchain_ollama import OllamaLLM
-from config.settings import MODEL_NAME
 
-def get_llm():
+def get_llm(MODEL_TYPE):
     try:
-        llm = OllamaLLM(model=MODEL_NAME)
-        print(f"✅ Ollama model '{MODEL_NAME}' initialized.")
+        llm = OllamaLLM(model=MODEL_TYPE)
+        print(f"✅ Ollama model '{MODEL_TYPE}' initialized.")
         return llm
     except Exception as e:
         print(f"❌ Failed to initialize Ollama model: {e}")
