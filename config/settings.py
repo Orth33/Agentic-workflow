@@ -1,6 +1,7 @@
 from pathlib import Path
 
-SUMMARY_MODEL_NAME = "tinyllama:latest"
+SUMMARY_MODEL_NAME = "tinyllama:1.1b"
+DECISION_MODEL_NAME = "tinyllama:1.1b"
 MODEL_NAME = "mistral"
 DOCUMENTS_DIR = Path("documents")
 RESULTS_DIR = Path("results")
